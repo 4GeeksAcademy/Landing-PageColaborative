@@ -11,13 +11,13 @@ const Home = () => {
 	return (
 		<div className="container-fluid">
 			<div className="row bg-dark">
-				<Navbar/>
+				<Navbar />
 			</div>
 			<div className="row">
-				<BodyContent/>
+				<BodyContent />
 			</div>
-			<div className="row">
-				<Footer/>
+			<div className="row bg-dark">
+				<Footer />
 			</div>
 		</div>
 	);
