@@ -9,13 +9,16 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Home = () => {
 	return (
-		<div className=" ">
-			<Navbar/>
-			<BodyContent/>
-			<Footer/>
-
-			
-			
+		<div className="container-fluid">
+			<div className="row bg-dark">
+				<Navbar/>
+			</div>
+			<div className="row">
+				<BodyContent/>
+			</div>
+			<div className="row">
+				<Footer/>
+			</div>
 		</div>
 	);
 };
